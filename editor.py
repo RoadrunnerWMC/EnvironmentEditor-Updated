@@ -534,7 +534,7 @@ class MainGUI(QWidget):
 			elif x[0] == "scene":
 				pass
 			else:
-				print "Found unknown folder:", x[0]
+				print ("Found unknown folder:", x[0])
 
 	def SaveAs(self):
 		self.savedName = QFileDialog.getSaveFileName(self, 'Choose an environment archive', '', 'Archives (*.arc);;All Files(*)')
